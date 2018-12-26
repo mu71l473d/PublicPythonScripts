@@ -3,7 +3,7 @@
 #import the sys module
 import sys
 
-print "this script converts kmh and mph, the first parameter should always be kmh or mph"
+print "this script converts kmh and mph, the first parameter should always be the unit you want to convert: kmh or mph"
 
 if len(sys.argv) == 2:
 	if sys.argv[1] == "mph":
