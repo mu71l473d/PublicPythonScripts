@@ -7,11 +7,11 @@ print "this script converts kmh and mph, the first parameter should always be th
 
 if len(sys.argv) == 2:
 	if sys.argv[1] == "mph":
-		mph = float(raw_input("Enter mp/h: "))
+		mph = float(input("Enter mp/h: "))
 		kph = mph / 0.6214 
 		print "Speed:", mph, "MP/H = ", kph, "KPH"
 	elif sys.argv[1] == "kph":
-		kmh = float(raw_input("Enter km/h: "))
+		kmh = float(input("Enter km/h: "))
 		mph =  0.6214 * kmh
 		print "Speed:", kmh, "KM/H = ", mph, "MPH"
 	else:
