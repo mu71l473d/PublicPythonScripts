@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 ##Work in progress. not meant to be a full script but a reference.
 
