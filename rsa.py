@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+##Work in progress. not meant to be a full script but a reference.
+
+
 ##(m**e)**d = m (% n)
 # n and e are part of the public key
 # have two distinct primes
