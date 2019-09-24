@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # Syntax: duplicates.py DIRECTORY
 
+##TODO: use subprocesses instead of os calls
+
 import os
 import sys
 
