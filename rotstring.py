@@ -8,7 +8,7 @@ def caesar_encrypt(realText, step):
 		if eachLetter in ' ':
 		    outText.append(' ')
        		elif eachLetter in uppercase:
-            		index = uppercase.index(eachLetter)
+            index = uppercase.index(eachLetter)
 			crypting = (index + step) % 26
 			cryptText.append(crypting)
 			newLetter = uppercase[crypting]
@@ -54,14 +54,7 @@ def caesar_brutusforce(realText):
 		result = caesar_decrypt(realText, i)
 		temp = str(i) + ": " + result +"\n"
 		print(temp)
-'''		
-def calculate_step(LetterA, LetterB)
-	convert to lowercase
-	lowercase = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-	get index of letter A
-	get index of letter b
-	steps = 
-	
-	return steps
-'''		
+    
+
 brutusforce = caesar_brutusforce('qPbqr EBG Nhgb')
+print brutusforce
