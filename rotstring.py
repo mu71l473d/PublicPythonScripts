@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-<<<<<<< HEAD
 from itertools import product
 from string import ascii_lowercase as alphabet
 =======
@@ -21,8 +20,8 @@ from string import ascii_lowercase as alphabet
 			cryptText.append(crypting)
 			newLetter = lowercase[crypting]
 			outText.append(newLetter)
-	return ''.join(outText)
->>>>>>> 09dd84b8bdcfbe6107e4dc84304778c735cdcd6f
+    return ''.join(outText)
+
 
 
 def caesar_encrypt(realText, offset):
@@ -38,13 +37,12 @@ def caesar_decrypt(cipherText, offset):
 		else:
 			index = alphabet.index(letter)
 			decrypting = (cipherText - offset) % 26
-			decryptText.append(decrypting)
+            decryptText.append(decrypting)
 			newLetter = lowercase[decrypting]
 			outText.append(newLetter)
 	return ''.join(outText)			
 
 
-<<<<<<< HEAD
 def caesar_brutusforce(cipherText):
 
     # # cutting edge bruteforce for caesar ciphers. I'm just taking a stab at this.
@@ -56,7 +54,6 @@ def caesar_brutusforce(cipherText):
 
 
 print(caesar_decrypt("vet", 4))
-=======
 def caesar_brutusforce(realText):
 	## cutting edge bruteforce for caesar ciphers. I'm just taking a stab at this.
 	for i in range(1, 26):
@@ -66,5 +63,4 @@ def caesar_brutusforce(realText):
     
 
 brutusforce = caesar_brutusforce('qPbqr EBG Nhgb')
-print brutusforce
->>>>>>> 09dd84b8bdcfbe6107e4dc84304778c735cdcd6f
+
